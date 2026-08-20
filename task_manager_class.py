@@ -5,6 +5,8 @@ import json
 
 class TaskManager:
 
+    print ("Task Manager started!")
+    
     def __init__(self):
         self.tasks = []
         self.next_id = 1
